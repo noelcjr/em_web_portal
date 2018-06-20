@@ -21,5 +21,20 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /font
+  static_dir: bookshelf/templates/fonts/Font-Awesome-Docker-Icon/fontcustom 
+
+- url: /img
+  static_dir: bookshelf/templates/img/portfolio
+
+- url: /imgcss
+  static_dir: bookshelf/templates/img/parallax
+
+- url: /js
+  static_dir: bookshelf/templates/js/fancybox
+
+- url: /css
+  static_dir: bookshelf/templates/css
+
 - url: /.*
   script: main.app

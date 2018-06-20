@@ -12,7 +12,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "fontcustom";
-    src: url("./fontcustom_cb066050d5b786186aa0e7f121427d8b.svg#fontcustom") format("svg");
+    src: url("/fonts/fontcustom_cb066050d5b786186aa0e7f121427d8b.svg#fontcustom") format("svg");
   }
 }
 [data-icon]:before { content: attr(data-icon); }

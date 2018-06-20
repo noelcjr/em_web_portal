@@ -1,10 +1,10 @@
 /* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 /* === fontawesome === */
-@import url('font-awesome.css');
+@import url('/css/font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
-@import url('overwrite.css');
-@import url('animate.css');
+@import url('/css/overwrite.css');
+@import url('/css/animate.css');
 /*==========================================================================
   General
   ========================================================================== */
@@ -332,13 +332,13 @@ section.section {
 ============================= */
 
 #parallax1{	
-	background-image: url(../img/parallax/img1.jpg);
+	background-image: url(/imgcss/img1.jpg);
 }
 #parallax2{	
-	background-image: url(../img/parallax/img2.jpg);
+	background-image: url(/imgcss/img2.jpg);
 }
 #testimonials{	
-	background-image: url(../img/portfolio/img10.jpg);
+	background-image: url(/img/img10.jpg);
 }
 /*===========================
   --- Header & menu ----
