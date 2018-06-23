@@ -26,12 +26,11 @@ def list():
         "index.html",
         books=books,
         next_page_token=next_page_token)
-
+# [END list]
 #    return render_template(
 #        "list.html",
 #        books=books,
 #        next_page_token=next_page_token)
-# [END list]
 
 @crud.route('/<id>')
 def view(id):

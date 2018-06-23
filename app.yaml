@@ -33,6 +33,9 @@ handlers:
 - url: /js
   static_dir: bookshelf/templates/js/fancybox
 
+- url: /jss
+  static_dir: bookshelf/templates/js
+
 - url: /css
   static_dir: bookshelf/templates/css
 
